@@ -66,6 +66,7 @@ settings.
 | `_layouts/` | Page templates |
 | `_includes/` | Header, footer, cards, SEO head |
 | `assets/css/style.css` | The whole design system, light and dark |
+| `atlas/` | Self-contained OWASP Top 10 Atlas at `/atlas/` |
 | `blog/`, `about/` | Section index pages |
 
 Projects are intentionally not part of the site yet. When you want them, add a

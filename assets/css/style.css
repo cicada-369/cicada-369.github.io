@@ -307,6 +307,13 @@ h1, h2, h3, h4 {
   background: var(--accent);
 }
 .now-list strong { color: var(--fg); font-weight: 650; }
+.now-list a {
+  color: var(--fg);
+  text-decoration: underline;
+  text-decoration-color: var(--border-strong);
+  text-underline-offset: 3px;
+}
+.now-list a:hover { color: var(--accent); text-decoration-color: var(--accent); }
 
 .card-foot {
   margin: 18px 0 0;

@@ -263,4 +263,4 @@ and the claim disagreed.
 
 ---
 
-**Bo Kaung** · Builder/Breaker/Defender · [LinkedIn](https://www.linkedin.com/in/bokaung) · [Hashnode](https://hashnode.com/@cicada369)
+**Bo Kaung** · Builder/Breaker/Defender · [LinkedIn](https://www.linkedin.com/in/bokaung) · [Hashnode](https://bokaung.hashnode.dev/)

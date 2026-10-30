@@ -246,7 +246,7 @@ Your agent's skills are code. Audit them before you trust them.
 
 ---
 
-**Bo Kaung** · Builder/Breaker/Defender · [LinkedIn](https://www.linkedin.com/in/bokaung) · [Hashnode](https://hashnode.com/@cicada369)
+**Bo Kaung** · Builder/Breaker/Defender · [LinkedIn](https://www.linkedin.com/in/bokaung) · [Hashnode](https://bokaung.hashnode.dev/)
 
 *Further reading: the
 [OWASP Agentic Skills Top 10](https://github.com/OWASP/www-project-agentic-skills-top-10)
