@@ -460,6 +460,27 @@ h1, h2, h3, h4 {
 .page-body ul, .page-body ol { margin: 0 0 1.2rem; padding-left: 1.3rem; }
 .page-body li { margin: .3rem 0; }
 .page-body a { font-weight: 500; }
+.page-body table {
+  display: block;
+  width: 100%;
+  margin: 1rem 0 1.6rem;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-size: .92rem;
+}
+.page-body th, .page-body td {
+  padding: .45rem .6rem;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: top;
+}
+.page-body th {
+  color: var(--muted);
+  font-size: .78rem;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
 
 /* ---------- Writing index ---------- */
 

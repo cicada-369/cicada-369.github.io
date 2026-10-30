@@ -1,3 +1,10 @@
+---
+title: "OWASP Top 10 directory"
+description: "A directory of OWASP Top 10 projects verified as of October 27, 2026."
+layout: page
+permalink: /atlas/owasp-top-10-all/
+---
+
 Here is a **GitHub** directory of OWASP Top 10 projects I could verify as of October 27, 2026. I’m listing the projects themselves—not the ten individual risks within each project.
 
 OWASP’s Top 10 family includes separate lists for web applications, APIs, mobile, AI, infrastructure, and other domains. Not every project has a finalized, year-numbered release; some are drafts or historical repositories. [owasp](https://owasp.org/www-project-developer-guide/assets/exports/OWASP_Developer_Guide.pdf)
