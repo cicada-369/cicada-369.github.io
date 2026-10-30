@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cicada-369.github.io/sitemap.xml

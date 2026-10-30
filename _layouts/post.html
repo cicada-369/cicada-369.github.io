@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<main id="main">
+  <article class="post wrap">
+    <header class="post-header">
+      <p class="eyebrow">Writing</p>
+      <h1>{{ page.title }}</h1>
+      {% if page.description %}<p class="dek">{{ page.description }}</p>{% endif %}
+      <p class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time>
+        <span aria-hidden="true">·</span> {{ page.content | number_of_words | divided_by: 220 | plus: 1 }} min read
+        <span aria-hidden="true">·</span> {{ page.author | default: site.author.name }}
+      </p>
+      {% if page.tags.size > 0 %}
+      <ul class="tag-list post-tags" aria-label="Tags">
+        {% for tag in page.tags %}<li>{{ tag }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+    </header>
+
+    {% if page.cover %}
+    <img class="post-cover" src="{{ page.cover | relative_url }}" alt="Cover for {{ page.title }}" width="1200" height="630">
+    {% endif %}
+
+    <div class="post-body">
+      {{ content }}
+    </div>
+
+    <footer class="post-footer">
+      <a class="back" href="{{ '/blog/' | relative_url }}"><span aria-hidden="true">←</span> All writing</a>
+      <a href="{{ '/feed.xml' | relative_url }}">Subscribe via RSS</a>
+    </footer>
+  </article>
+</main>

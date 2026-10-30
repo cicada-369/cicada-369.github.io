@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<main id="main">
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <p class="eyebrow">Security engineering · AI agents · evidence</p>
+      <h1>I build tools that make <span class="accent">agent capabilities</span> legible.</h1>
+      <p class="lead">I'm Bo Kaung — a builder, breaker, and defender working on AI agent security. I write about what I find, including the parts that went wrong.</p>
+      <p class="hero-links">
+        <a class="btn btn-primary" href="{{ '/blog/' | relative_url }}">Read the writing</a>
+        <a class="btn" href="{{ '/about/' | relative_url }}">About me</a>
+      </p>
+    </div>
+    <aside class="hero-card" aria-label="Currently working on">
+      <p class="card-label">Currently</p>
+      <ul class="now-list">
+        <li><strong>SkillTriage</strong> — static auditing for agent skills and plugins</li>
+        <li><strong>The OWASP Top 10 Atlas</strong> — an offline map of the lists</li>
+        <li>Writing about pair coding, evidence, and scope</li>
+      </ul>
+      <p class="card-foot"><a href="https://github.com/{{ site.social.github }}">github.com/{{ site.social.github }} <span aria-hidden="true">→</span></a></p>
+    </aside>
+  </section>
+
+  <section class="section wrap" aria-labelledby="writing-title">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Writing</p>
+        <h2 id="writing-title">Latest posts</h2>
+      </div>
+      <a class="more" href="{{ '/blog/' | relative_url }}">All posts <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="card-grid">
+      {% for post in site.posts limit: 2 %}
+        {% include post-card.html post=post %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section wrap elsewhere" aria-labelledby="elsewhere-title">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Elsewhere</p>
+        <h2 id="elsewhere-title">Find me</h2>
+      </div>
+    </div>
+    <ul class="link-row">
+      <li><a href="https://github.com/{{ site.social.github }}">GitHub <span aria-hidden="true">↗</span></a></li>
+      <li><a href="https://www.linkedin.com/in/{{ site.social.linkedin }}">LinkedIn <span aria-hidden="true">↗</span></a></li>
+      <li><a href="https://hashnode.com/@{{ site.social.hashnode }}">Hashnode <span aria-hidden="true">↗</span></a></li>
+      <li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
+    </ul>
+  </section>
+</main>

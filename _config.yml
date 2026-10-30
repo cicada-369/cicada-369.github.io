@@ -1,0 +1,55 @@
+title: Bo Kaung
+tagline: Security engineering, AI agents, and the evidence in between.
+description: >-
+  Writing on AI agent security, static analysis, and the evidence in between.
+  By Bo Kaung.
+url: "https://cicada-369.github.io"
+baseurl: ""
+lang: en
+timezone: UTC
+title_separator: " · "
+
+author:
+  name: Bo Kaung
+
+social:
+  github: cicada-369
+  linkedin: bokaung
+  hashnode: cicada369
+
+github_username: cicada-369
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+permalink: /blog/:title/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+feed:
+  path: feed.xml
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Bo Kaung
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .bundle
+  - .jekyll-cache
+  - .sass-cache
+  - node_modules

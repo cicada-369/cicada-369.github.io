@@ -1,0 +1,32 @@
+---
+layout: default
+title: Writing
+description: "Notes on AI agent security, static analysis, and the evidence in between."
+permalink: /blog/
+---
+<main id="main" class="page wrap">
+  <header class="page-head">
+    <p class="eyebrow">Writing</p>
+    <h1>Writing</h1>
+    <p class="dek">Notes on agent security, static analysis, and keeping the evidence.</p>
+  </header>
+
+  <div class="post-list">
+    {% for post in site.posts %}
+    <article class="post-row">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %-d, %Y' }}</time>
+      <div>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p>{{ post.description }}</p>
+        {% if post.tags.size > 0 %}
+        <ul class="tag-list" aria-label="Tags">
+          {% for tag in post.tags %}<li>{{ tag }}</li>{% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+
+  <p class="rss-note"><a href="{{ '/feed.xml' | relative_url }}">Subscribe via RSS</a> · new posts land here first.</p>
+</main>
