@@ -164,16 +164,6 @@ h1, h2, h3, h4 {
   border-bottom-color: var(--accent);
 }
 
-.site-nav .nav-rss {
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 4px 11px;
-  font: 600 11px/1 var(--font-mono);
-  letter-spacing: .05em;
-  text-transform: uppercase;
-}
-.site-nav .nav-rss:hover { border-color: var(--accent); color: var(--accent); }
-
 /* ---------- Shared type ---------- */
 
 .eyebrow {
@@ -513,12 +503,6 @@ h1, h2, h3, h4 {
   font-size: .96rem;
 }
 
-.rss-note {
-  margin: 28px 0 0;
-  color: var(--muted);
-  font-size: .9rem;
-}
-
 /* ---------- Post ---------- */
 
 .post {
@@ -751,7 +735,7 @@ h1, h2, h3, h4 {
 /* ---------- Print ---------- */
 
 @media print {
-  .site-header, .site-footer, .skip-link, .post-footer, .hero-links, .rss-note { display: none; }
+  .site-header, .site-footer, .skip-link, .post-footer, .hero-links { display: none; }
   body { background: #fff; color: #000; }
   .post, .page { padding: 0; }
   a { color: #000; text-decoration: underline; }

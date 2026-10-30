@@ -8,7 +8,6 @@
       <a href="{{ '/blog/' | relative_url }}"{% if page.url == '/blog/' or page.collection == 'posts' %} aria-current="page"{% endif %}>Writing</a>
       <a href="{{ '/atlas/' | relative_url }}"{% if page.url contains '/atlas/' %} aria-current="page"{% endif %}>Atlas</a>
       <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
-      <a class="nav-rss" href="{{ '/feed.xml' | relative_url }}">RSS</a>
     </nav>
   </div>
 </header>
