@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Cicada 369 — numbered abdomen">
+  <rect width="512" height="512" rx="112" fill="#0e1216"/>
+  <g fill="#5eead4">
+    <path d="M232 220 C168 240 128 312 120 392 C116 446 144 486 196 504 C226 470 240 404 242 336 Z"/>
+    <path d="M280 220 C344 240 384 312 392 392 C396 446 368 486 316 504 C286 470 272 404 270 336 Z"/>
+    <path d="M186 200 L326 200 L310 268 L202 268 Z"/>
+    <path d="M196 152 C196 126 216 112 256 112 C296 112 316 126 316 152 L316 208 L196 208 Z"/>
+    <circle cx="204" cy="156" r="26" fill="#a7f3e8"/>
+    <circle cx="308" cy="156" r="26" fill="#a7f3e8"/>
+    <circle cx="204" cy="156" r="9" fill="#0e1216"/>
+    <circle cx="308" cy="156" r="9" fill="#0e1216"/>
+  </g>
+  <g stroke="#0e1216" stroke-width="4" opacity=".25" fill="none">
+    <path d="M198 208 H314"/>
+    <path d="M214 268 C180 326 160 404 168 482"/>
+    <path d="M236 278 C210 336 196 414 204 494"/>
+    <path d="M298 268 C332 326 352 404 344 482"/>
+    <path d="M276 278 C302 336 316 414 308 494"/>
+  </g>
+  <g text-anchor="middle" font-family="Liberation Sans, Arial, sans-serif" font-weight="700" font-size="64" fill="#e6edf3">
+    <text x="256" y="330">3</text>
+    <text x="256" y="406">6</text>
+    <text x="256" y="482">9</text>
+  </g>
+</svg>
