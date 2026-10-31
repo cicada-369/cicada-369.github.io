@@ -16,13 +16,15 @@ chromium --headless=new --no-sandbox --disable-gpu --disable-dev-shm-usage \
 The output path must match the post's `cover:` and `image:` front matter.
 Covers are 1200×630 and use the dark palette tokens from
 `assets/css/style.css`: background `#0e1216`, body text `#e6edf3`, muted
-`#93a1ae`, accent `#79c0ff`.
+`#93a1ae`, accent `#79c0ff` (blue) or `#5eead4` (teal; used by the IP-Tracer
+cover to match the site's current accent).
 
 ## Existing covers
 
 | Source | Rendered to |
 |---|---|
 | `playing-with-ai-pentest-tools-cover.html` | `assets/images/playing-with-ai-pentest-tools-cover.png` |
+| `ip-tracer-cover.html` | `assets/images/ip-tracer-cover.png` |
 
 The two earlier covers (`skilltriage-cover.png`, `semgrep-cover.png`) were
 produced before this directory existed and have no source here.

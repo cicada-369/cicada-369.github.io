@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  html, body { margin: 0; padding: 0; width: 1200px; height: 630px; }
+  body {
+    background: #0e1216;
+    color: #e6edf3;
+    font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { position: relative; width: 1200px; height: 630px; padding: 64px 72px; box-sizing: border-box; }
+  .eyebrow { font-size: 15px; letter-spacing: .26em; text-transform: uppercase; color: #5eead4; font-weight: 700; }
+  h1 { font-size: 82px; line-height: 1.02; letter-spacing: -0.025em; margin: 26px 0 0; font-weight: 700; }
+  h1 .accent { color: #5eead4; display: block; }
+  .dek { margin: 26px 0 0; font-size: 24px; line-height: 1.4; color: #93a1ae; max-width: 560px; }
+  .rule { width: 76px; height: 4px; background: #2f8f83; margin-top: 28px; border-radius: 2px; }
+  .foot { position: absolute; left: 72px; bottom: 46px; font-size: 17px; color: #e6edf3; font-weight: 700; }
+  .foot span { color: #93a1ae; font-weight: 400; }
+  .panel {
+    position: absolute; right: 72px; top: 118px; width: 430px;
+    background: #0b0f14; border: 1px solid #26303a; border-radius: 14px;
+    overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,.3);
+  }
+  .bar { display: flex; align-items: center; gap: 7px; padding: 12px 16px; border-bottom: 1px solid #26303a; }
+  .dot { width: 11px; height: 11px; border-radius: 50%; }
+  .ptitle { margin-left: 10px; font-family: "DejaVu Sans Mono", monospace; font-size: 13px; color: #93a1ae; }
+  .rows { padding: 6px 18px 10px; }
+  .row { display: flex; justify-content: space-between; align-items: baseline; padding: 14px 0; border-bottom: 1px solid #1b242d; font-family: "DejaVu Sans Mono", monospace; }
+  .row:last-child { border-bottom: 0; }
+  .src { font-size: 15px; color: #c9d3dc; }
+  .val { font-size: 15px; font-weight: 700; color: #5eead4; }
+  .row.silent .src { color: #93a1ae; }
+  .row.silent .val { color: #5b6672; font-weight: 400; }
+  .note { padding: 12px 18px 16px; border-top: 1px solid #26303a; font-family: "DejaVu Sans Mono", monospace; font-size: 12px; color: #93a1ae; display: flex; justify-content: space-between; }
+  .note b { color: #5eead4; font-weight: 700; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="eyebrow">Threat Intelligence &middot; WAF</div>
+    <h1>One IP,<span class="accent">Five Sources</span></h1>
+    <p class="dek">What a malicious address actually proves &mdash; and what two silent sources do not.</p>
+    <div class="rule"></div>
+
+    <div class="panel">
+      <div class="bar">
+        <span class="dot" style="background:#ff5f57"></span>
+        <span class="dot" style="background:#febc2e"></span>
+        <span class="dot" style="background:#28c840"></span>
+        <span class="ptitle">195.178.110.155</span>
+      </div>
+      <div class="rows">
+        <div class="row"><span class="src">AbuseIPDB</span><span class="val">100%</span></div>
+        <div class="row"><span class="src">VirusTotal</span><span class="val">15 / 94</span></div>
+        <div class="row"><span class="src">Shodan</span><span class="val">22 &middot; 631</span></div>
+        <div class="row silent"><span class="src">Censys</span><span class="val">no data</span></div>
+        <div class="row silent"><span class="src">SecurityTrails</span><span class="val">no data</span></div>
+      </div>
+      <div class="note"><span><b>3</b> answered</span><span><b>2</b> silent</span><span>hosting &middot; AS48090</span></div>
+    </div>
+
+    <div class="foot">Bo Kaung <span>&middot; cicada-369.github.io</span></div>
+  </div>
+</body>
+</html>

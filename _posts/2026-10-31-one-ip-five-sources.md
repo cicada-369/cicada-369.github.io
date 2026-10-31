@@ -9,6 +9,8 @@ tags:
   - waf
   - incident-response
   - bash
+cover: /assets/images/ip-tracer-cover.png
+image: /assets/images/ip-tracer-cover.png
 ---
 
 I used to own a WAF block list in AWS. The rules were simple: an allow list, a
