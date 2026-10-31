@@ -68,6 +68,7 @@ settings.
 | `assets/css/style.css` | The whole design system, light and dark |
 | `atlas/` | Self-contained OWASP Top 10 Atlas at `/atlas/` |
 | `blog/`, `about/` | Section index pages |
+| `design/` | Cover source HTML, excluded from the build (see `design/covers/README.md`) |
 
 Projects are intentionally not part of the site yet. When you want them, add a
 `projects/index.html`, a `_data/projects.yml`, and a `_includes/project-card.html`
